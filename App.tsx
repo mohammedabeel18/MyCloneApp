@@ -20,33 +20,7 @@ export default function App() {
         Connect with friends and the world around you on Instagram.
       </Text>
 
-     {/* Login Form */}
-      <View style={styles.inputContainer}>
-        <TextInput
-          placeholder="Phone number, username, or email"
-          style={styles.input}
-        />
-        <TextInput
-          placeholder="Password"
-          secureTextEntry={true}
-          style={styles.input}
-        />
-        <TouchableOpacity style={styles.loginButton}>
-          <Text style={styles.buttonText}>Log In</Text>
-        </TouchableOpacity>
-      </View>
-
-      {/* Divider */}
-      <View style={styles.dividerContainer}>
-        <View style={styles.divider} />
-        <Text style={styles.orText}>OR</Text>
-        <View style={styles.divider} />
-      </View>
-
-      {/* Sign Up */}
-      <TouchableOpacity>
-        <Text style={styles.signupText}>Sign up for Instagram</Text>
-      </TouchableOpacity> 
+     
      {/* Alert Button */}
 <View style={styles.alertContainer}>
 <TouchableOpacity style={styles.alertButton} onPress={showAlert}>
