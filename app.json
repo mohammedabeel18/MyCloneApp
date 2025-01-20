@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "typescript_refresher_classC",
-    "slug": "typescript_refresher_classC",
+    "name": "myCloneApp",
+    "slug": "myCloneApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
