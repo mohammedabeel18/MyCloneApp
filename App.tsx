@@ -103,10 +103,10 @@ const styles = StyleSheet.create({
   },
   alertButton: {
     backgroundColor: "#CC5801",
-    borderRadius: 20,
-    padding: 12,
+    borderRadius: 21,
+    padding: 14,
     alignItems: "center",
-    marginBottom: 20,
+    marginBottom: 21,
   },
   buttonText: {
     color: "#fff",
