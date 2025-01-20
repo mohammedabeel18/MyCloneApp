@@ -47,7 +47,12 @@ export default function App() {
       <TouchableOpacity>
         <Text style={styles.signupText}>Sign up for Instagram</Text>
       </TouchableOpacity> 
-      
+     {/* Alert Button */}
+<View style={styles.alertContainer}>
+<TouchableOpacity style={styles.alertButton} onPress={showAlert}>
+<Text style={styles.buttonText}>Alert</Text>
+</TouchableOpacity>
+</View> 
     </View>
   );
 };
