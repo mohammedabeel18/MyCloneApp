@@ -47,6 +47,7 @@ export default function App() {
       <TouchableOpacity>
         <Text style={styles.signupText}>Sign up for Instagram</Text>
       </TouchableOpacity> 
+      
     </View>
   );
 };
